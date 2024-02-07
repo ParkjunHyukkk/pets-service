@@ -8,7 +8,7 @@ public class JpaMain {
 
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("hello");
         EntityManager em = emf.createEntityManager();
-        //code
+        //code123
 
         em.close();
         emf.close();
